@@ -1,7 +1,7 @@
-use leptos::{component,view,IntoView};
+use leptos::{component, view, IntoView};
 
 #[component]
-pub fn AboutMe () -> impl IntoView {
+pub fn AboutMe() -> impl IntoView {
     view! {
         <div class="container mt-8 mx-auto">
             <h1 class="text-lg text-pink-500 font-semibold">"About Me"</h1>

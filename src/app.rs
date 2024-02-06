@@ -1,9 +1,10 @@
-mod hero;
 mod about_me;
+mod hero;
+mod projects;
 
-use leptos::{component,view,IntoView};
-use hero::*;
 use about_me::*;
+use hero::*;
+use leptos::{component, view, IntoView};
 
 #[component]
 pub fn App() -> impl IntoView {
