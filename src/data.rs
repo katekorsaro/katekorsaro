@@ -6,6 +6,7 @@ pub struct Project {
     pub description: String,
     pub status_tag: ProjectStatus,
     pub tags: Option<Vec<String>>,
+    pub project_url: Option<String>,
 }
 
 impl Project {
@@ -23,6 +24,7 @@ impl Project {
             description: String::from(description),
             status_tag,
             tags: None,
+            project_url: None,
         }
     }
     pub fn tags(mut self, tags: Vec<&str>) -> Self {
@@ -32,6 +34,10 @@ impl Project {
             .collect::<Vec<String>>();
 
         self.tags = Some(tags);
+        self
+    }
+    pub fn project_url (mut self, project_url: &str) -> Self {
+        self.project_url = Some(String::from(project_url));
         self
     }
 }
