@@ -1,6 +1,8 @@
 mod app;
+mod data;
 
 use app::*;
+use data::*;
 use leptos::view;
 
 fn main() {
