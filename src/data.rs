@@ -1,5 +1,4 @@
 pub struct Project {
-    pub id: u32,
     pub title: String,
     pub status: String,
     pub description: String,
@@ -9,15 +8,8 @@ pub struct Project {
 }
 
 impl Project {
-    pub fn new(
-        id: u32,
-        title: &str,
-        status: &str,
-        description: &str,
-        status_tag: ProjectStatus,
-    ) -> Self {
+    pub fn new(title: &str, status: &str, description: &str, status_tag: ProjectStatus) -> Self {
         Self {
-            id,
             title: String::from(title),
             status: String::from(status),
             description: String::from(description),
