@@ -5,6 +5,7 @@ pub struct Project {
     pub status: String,
     pub description: String,
     pub status_tag: ProjectStatus,
+    pub tags: Option<Vec<String>>,
 }
 
 impl Project {
@@ -21,7 +22,17 @@ impl Project {
             status: String::from(status),
             description: String::from(description),
             status_tag,
+            tags: None,
         }
+    }
+    pub fn tags(mut self, tags: Vec<&str>) -> Self {
+        let tags = tags
+            .into_iter()
+            .map(|x| String::from(x))
+            .collect::<Vec<String>>();
+
+        self.tags = Some(tags);
+        self
     }
 }
 

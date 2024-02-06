@@ -26,7 +26,8 @@ fn list_of_all_projects() -> Vec<Project> {
             "work in progress",
             "A CLI personal finance and budget manager heavily inspired by taskwarrior",
             ProjectStatus::Amber,
-        ),
+        )
+        .tags(vec!["finance", "budget", "rust"]),
         Project::new(
             0,
             "budgr-tui",
