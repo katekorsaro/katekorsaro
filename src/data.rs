@@ -1,4 +1,3 @@
-#[derive(Clone)]
 pub struct Project {
     pub id: u32,
     pub title: String,
