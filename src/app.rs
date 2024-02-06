@@ -1,16 +1,10 @@
-mod about_me;
-mod hero;
-mod nav;
-mod projects;
 mod home;
+mod nav;
 
-use about_me::*;
-use hero::*;
-use leptos::{component, view, IntoView};
-use leptos_router::{Router, Routes, Route};
-use nav::*;
-use projects::*;
 use home::*;
+use leptos::{component, view, IntoView};
+use leptos_router::{Route, Router, Routes};
+use nav::*;
 
 #[component]
 pub fn App() -> impl IntoView {
