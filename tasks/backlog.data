@@ -2,3 +2,8 @@
 {"description":"create a blog list page with some blog posts","entry":"20240206T150203Z","modified":"20240206T150203Z","priority":"M","status":"pending","uuid":"c63c6fb3-6465-4086-8922-5e0799e9e3ad","tags":["new"]}
 {"description":"add a navbar with home and blog links","entry":"20240206T150141Z","modified":"20240206T150239Z","priority":"M","start":"20240206T150239Z","status":"pending","uuid":"717f6719-9b22-4dc5-8a77-81eac7f5f4a5","tags":["new"]}
 {"description":"add a navbar with home and blog links","end":"20240206T152026Z","entry":"20240206T150141Z","modified":"20240206T152026Z","priority":"M","status":"completed","uuid":"717f6719-9b22-4dc5-8a77-81eac7f5f4a5","tags":["new"]}
+{"description":"add router to project","entry":"20240206T152254Z","modified":"20240206T152254Z","priority":"M","status":"pending","uuid":"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7","tags":["new"]}
+{"description":"add router to project","entry":"20240206T152254Z","modified":"20240206T152256Z","priority":"M","start":"20240206T152256Z","status":"pending","uuid":"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7","tags":["new"]}
+{"description":"add router to project","end":"20240206T154941Z","entry":"20240206T152254Z","modified":"20240206T154941Z","priority":"M","status":"completed","uuid":"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7","tags":["new"]}
+{"description":"refactor module inside app","entry":"20240206T154956Z","modified":"20240206T154956Z","priority":"H","status":"pending","uuid":"7b9d2ffe-c206-40fd-a45a-f48f20125e75"}
+{"description":"refactor module inside app","entry":"20240206T154956Z","modified":"20240206T154958Z","priority":"H","start":"20240206T154958Z","status":"pending","uuid":"7b9d2ffe-c206-40fd-a45a-f48f20125e75"}

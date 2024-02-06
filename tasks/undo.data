@@ -12,3 +12,21 @@ time 1707232826
 old [description:"add a navbar with home and blog links" entry:"1707231701" modified:"1707231759" priority:"M" start:"1707231759" status:"pending" tags:"new" tags_new:"x" uuid:"717f6719-9b22-4dc5-8a77-81eac7f5f4a5"]
 new [description:"add a navbar with home and blog links" end:"1707232826" entry:"1707231701" modified:"1707232826" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"717f6719-9b22-4dc5-8a77-81eac7f5f4a5"]
 ---
+time 1707232974
+new [description:"add router to project" entry:"1707232974" modified:"1707232974" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7"]
+---
+time 1707232976
+old [description:"add router to project" entry:"1707232974" modified:"1707232974" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7"]
+new [description:"add router to project" entry:"1707232974" modified:"1707232976" priority:"M" start:"1707232976" status:"pending" tags:"new" tags_new:"x" uuid:"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7"]
+---
+time 1707234581
+old [description:"add router to project" entry:"1707232974" modified:"1707232976" priority:"M" start:"1707232976" status:"pending" tags:"new" tags_new:"x" uuid:"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7"]
+new [description:"add router to project" end:"1707234581" entry:"1707232974" modified:"1707234581" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7"]
+---
+time 1707234596
+new [description:"refactor module inside app" entry:"1707234596" modified:"1707234596" priority:"H" status:"pending" uuid:"7b9d2ffe-c206-40fd-a45a-f48f20125e75"]
+---
+time 1707234598
+old [description:"refactor module inside app" entry:"1707234596" modified:"1707234596" priority:"H" status:"pending" uuid:"7b9d2ffe-c206-40fd-a45a-f48f20125e75"]
+new [description:"refactor module inside app" entry:"1707234596" modified:"1707234598" priority:"H" start:"1707234598" status:"pending" uuid:"7b9d2ffe-c206-40fd-a45a-f48f20125e75"]
+---
