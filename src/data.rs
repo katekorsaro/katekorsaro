@@ -36,7 +36,7 @@ impl Project {
         self.tags = Some(tags);
         self
     }
-    pub fn project_url (mut self, project_url: &str) -> Self {
+    pub fn project_url(mut self, project_url: &str) -> Self {
         self.project_url = Some(String::from(project_url));
         self
     }
