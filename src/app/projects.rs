@@ -1,6 +1,6 @@
 mod project_card;
 
-use crate::Project;
+use crate::{Project, ProjectStatus};
 use leptos::{component, create_signal, view, IntoView};
 use project_card::*;
 
@@ -10,6 +10,7 @@ pub fn Projects() -> impl IntoView {
         title: String::from("Budgr"),
         status: String::from("work in progress"),
         description: String::from("this is a long and hopefully multiline description!"),
+        status_tag: ProjectStatus::Cyan,
     };
 
     let (project, _) = create_signal(project);
