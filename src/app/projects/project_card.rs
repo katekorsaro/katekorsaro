@@ -12,7 +12,7 @@ pub fn ProjectCard(project: Project) -> impl IntoView {
             class="bg-slate-800 rounded rounded-4 p-2 border-s-4"
         >
             <h1 class="text-cyan-500">{move || project.title.clone()}</h1>
-            <p class="text-xs">"Status: " {move || project.status.clone()}</p>
+            <p class="text-xs text-slate-400">"Status: " {move || project.status.clone()}</p>
             <p class="mt-2">{move || project.description.clone()}</p>
             <p class="text-xs text-slate-500 mt-2">
 
