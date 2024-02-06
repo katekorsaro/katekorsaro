@@ -1,7 +1,7 @@
 mod project_card;
 
 use crate::{Project, ProjectStatus};
-use leptos::{component, create_signal, view, IntoView, For};
+use leptos::{component, view, IntoView, For};
 use project_card::*;
 
 #[component]
