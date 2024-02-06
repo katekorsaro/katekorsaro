@@ -36,7 +36,7 @@ impl Project {
     }
 }
 
-#[derive(Clone, PartialEq)]
+#[derive(Clone, PartialEq, Copy)]
 pub enum ProjectStatus {
     Red,
     Amber,
