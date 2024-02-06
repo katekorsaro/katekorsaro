@@ -6,14 +6,9 @@ use project_card::*;
 
 #[component]
 pub fn Projects() -> impl IntoView {
-    let project = Project::new(
-        "Budgr",
-        "work in progress",
-        "description",
-        ProjectStatus::Emerald,
-    );
+    let projects = list_of_all_projects();
 
-    let (project, _) = create_signal(project);
+    let (project, _) = create_signal(projects[0].clone());
 
     view! {
         <div class="container mt-8 mx-auto">
@@ -27,4 +22,15 @@ pub fn Projects() -> impl IntoView {
             </div>
         </div>
     }
+}
+
+fn list_of_all_projects() -> Vec<Project> {
+    let project = Project::new(
+        "Budgr",
+        "work in progress",
+        "description",
+        ProjectStatus::Emerald,
+    );
+
+    vec![project]
 }
