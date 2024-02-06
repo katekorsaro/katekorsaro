@@ -1,2 +1,4 @@
 {"description":"add a navbar with home and blog links","entry":"20240206T150141Z","modified":"20240206T150141Z","priority":"M","status":"pending","uuid":"717f6719-9b22-4dc5-8a77-81eac7f5f4a5","tags":["new"]}
 {"description":"create a blog list page with some blog posts","entry":"20240206T150203Z","modified":"20240206T150203Z","priority":"M","status":"pending","uuid":"c63c6fb3-6465-4086-8922-5e0799e9e3ad","tags":["new"]}
+{"description":"add a navbar with home and blog links","entry":"20240206T150141Z","modified":"20240206T150239Z","priority":"M","start":"20240206T150239Z","status":"pending","uuid":"717f6719-9b22-4dc5-8a77-81eac7f5f4a5","tags":["new"]}
+{"description":"add a navbar with home and blog links","end":"20240206T152026Z","entry":"20240206T150141Z","modified":"20240206T152026Z","priority":"M","status":"completed","uuid":"717f6719-9b22-4dc5-8a77-81eac7f5f4a5","tags":["new"]}
