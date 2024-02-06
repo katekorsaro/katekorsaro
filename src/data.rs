@@ -8,7 +8,13 @@ pub struct Project {
 }
 
 impl Project {
-    pub fn new(id: u32, title: &str, status: &str, description: &str, status_tag: ProjectStatus) -> Self {
+    pub fn new(
+        id: u32,
+        title: &str,
+        status: &str,
+        description: &str,
+        status_tag: ProjectStatus,
+    ) -> Self {
         Self {
             id,
             title: String::from(title),

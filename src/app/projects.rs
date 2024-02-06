@@ -1,7 +1,7 @@
 mod project_card;
 
 use crate::{Project, ProjectStatus};
-use leptos::{component, view, IntoView, For};
+use leptos::{component, view, For, IntoView};
 use project_card::*;
 
 #[component]
@@ -10,26 +10,36 @@ pub fn Projects() -> impl IntoView {
         <div class="container mt-8 mx-auto">
             <h1 class="text-lg text-pink-500 font-semibold">"Current Projects"</h1>
             <div class="grid grid-cols-3 gap-4 mt-4">
-            <For
-                each=list_of_all_projects
-                key=|state| state.id.clone()
-                let:project
-            >
-                <ProjectCard project=project/>
-            </For>
+                <For each=list_of_all_projects key=|state| state.id.clone() let:project>
+                    <ProjectCard project=project/>
+                </For>
             </div>
         </div>
     }
 }
 
 fn list_of_all_projects() -> Vec<Project> {
-    let project = Project::new(
-        0,
-        "Budgr",
-        "work in progress",
-        "description",
-        ProjectStatus::Emerald,
-    );
-
-    vec![project]
+    vec![
+        Project::new(
+            0,
+            "budgr",
+            "work in progress",
+            "A CLI personal finance and budget manager heavily inspired by taskwarrior",
+            ProjectStatus::Amber,
+        ),
+        Project::new(
+            0,
+            "budgr-tui",
+            "not yet started",
+            "A front-end for budgr using ratatui rust library",
+            ProjectStatus::Red,
+        ),
+        Project::new(
+            0,
+            "iron-dice",
+            "usable",
+            "A CLI dice roller written in rust. Highly configurable and fast to use",
+            ProjectStatus::Emerald,
+        ),
+    ]
 }
