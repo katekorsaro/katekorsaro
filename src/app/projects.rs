@@ -6,12 +6,12 @@ use project_card::*;
 
 #[component]
 pub fn Projects() -> impl IntoView {
-    let project = Project {
-        title: String::from("Budgr"),
-        status: String::from("work in progress"),
-        description: String::from("this is a long and hopefully multiline description!"),
-        status_tag: ProjectStatus::Cyan,
-    };
+    let project = Project::new(
+        "Budgr",
+        "work in progress",
+        "description",
+        ProjectStatus::Emerald,
+    );
 
     let (project, _) = create_signal(project);
 

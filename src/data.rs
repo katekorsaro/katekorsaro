@@ -6,6 +6,17 @@ pub struct Project {
     pub status_tag: ProjectStatus,
 }
 
+impl Project {
+    pub fn new(title: &str, status: &str, description: &str, status_tag: ProjectStatus) -> Self {
+        Self {
+            title: String::from(title),
+            status: String::from(status),
+            description: String::from(description),
+            status_tag,
+        }
+    }
+}
+
 #[derive(Clone, PartialEq)]
 pub enum ProjectStatus {
     Red,
