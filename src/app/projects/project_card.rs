@@ -11,12 +11,9 @@ pub fn ProjectCard(project: Project) -> impl IntoView {
             class=("border-amber-500", move || project.status_tag == ProjectStatus::Amber)
             class=("border-emerald-500", move || project.status_tag == ProjectStatus::Emerald)
             class=("border-cyan-500", move || project.status_tag == ProjectStatus::Cyan)
-            class="bg-slate-800 rounded rounded-4 p-2 border-s-4"
+            class="bg-slate-800 rounded rounded-4 p-2 border-s-4 shadow"
         >
-            <h1
-                class="text-cyan-500"
-                class=("underline", move || url.is_some())
-            >
+            <h1 class="text-cyan-500" class=("underline", move || url.is_some())>
                 <a href=move || project.project_url.clone()>{move || project.title.clone()}</a>
             </h1>
             <p class="text-xs text-slate-400">"Status: " {move || project.status.clone()}</p>
