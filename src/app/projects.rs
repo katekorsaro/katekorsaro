@@ -35,13 +35,16 @@ fn list_of_all_projects() -> Vec<Project> {
             "not yet started",
             "A front-end for budgr using ratatui rust library",
             ProjectStatus::Red,
-        ),
+        )
+        .tags(vec!["tui", "rust", "finance", "front-end"]),
         Project::new(
             0,
             "iron-dice",
             "usable",
             "A CLI dice roller written in rust. Highly configurable and fast to use",
             ProjectStatus::Emerald,
-        ),
+        )
+        .tags(vec!["rpg", "random", "dice"])
+        .project_url("https://github.com/katekorsaro/iron-dice"),
     ]
 }
