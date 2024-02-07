@@ -57,3 +57,6 @@ time 1707290638
 old [description:"review font size" entry:"1707289331" modified:"1707289333" priority:"H" start:"1707289333" status:"pending" uuid:"a08a9197-9e40-4a40-b79d-f1963bb8defc"]
 new [description:"review font size" end:"1707290638" entry:"1707289331" modified:"1707290638" priority:"H" status:"completed" uuid:"a08a9197-9e40-4a40-b79d-f1963bb8defc"]
 ---
+time 1707290713
+new [description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707290713" priority:"H" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
+---
