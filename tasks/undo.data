@@ -125,3 +125,14 @@ time 1707303547
 old [description:"refactor use of global context" entry:"1707303300" modified:"1707303300" priority:"M" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
 new [description:"refactor use of global context" entry:"1707303300" modified:"1707303547" priority:"M" start:"1707303547" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
 ---
+time 1707303976
+old [description:"refactor use of global context" entry:"1707303300" modified:"1707303547" priority:"M" start:"1707303547" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
+new [description:"refactor use of global context" end:"1707303976" entry:"1707303300" modified:"1707303976" priority:"M" status:"completed" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
+---
+time 1707304004
+new [description:"reexport leptos and simplify the use directives" entry:"1707304004" modified:"1707304004" priority:"H" status:"pending" uuid:"a7cbf950-171c-4256-afca-864d5600d48f"]
+---
+time 1707304007
+old [description:"reexport leptos and simplify the use directives" entry:"1707304004" modified:"1707304004" priority:"H" status:"pending" uuid:"a7cbf950-171c-4256-afca-864d5600d48f"]
+new [description:"reexport leptos and simplify the use directives" entry:"1707304004" modified:"1707304007" priority:"H" start:"1707304007" status:"pending" uuid:"a7cbf950-171c-4256-afca-864d5600d48f"]
+---

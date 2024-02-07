@@ -1,3 +1,4 @@
+[description:"refactor use of global context" end:"1707303976" entry:"1707303300" modified:"1707303976" priority:"M" status:"completed" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
 [description:"define app global state and make it available to all components" end:"1707303283" entry:"1707300505" modified:"1707303283" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"d1f954bd-a298-4475-a36c-bac705948248"]
 [description:"logo image as base64 embed into html" end:"1707298892" entry:"1707289407" modified:"1707298892" priority:"M" status:"completed" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
 [description:"make the whole thing a little bit mobile friendly" end:"1707297077" entry:"1707288631" modified:"1707297077" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"1e64e865-d038-4380-be6d-5a0f334d59b5"]

@@ -33,3 +33,6 @@
 {"description":"define app global state and make it available to all components","end":"20240207T105443Z","entry":"20240207T100825Z","modified":"20240207T105443Z","priority":"H","status":"completed","uuid":"d1f954bd-a298-4475-a36c-bac705948248","tags":["new"]}
 {"description":"refactor use of global context","entry":"20240207T105500Z","modified":"20240207T105500Z","priority":"M","status":"pending","uuid":"acda8309-0ce8-4809-a55e-ff20aca12d46"}
 {"description":"refactor use of global context","entry":"20240207T105500Z","modified":"20240207T105907Z","priority":"M","start":"20240207T105907Z","status":"pending","uuid":"acda8309-0ce8-4809-a55e-ff20aca12d46"}
+{"description":"refactor use of global context","end":"20240207T110616Z","entry":"20240207T105500Z","modified":"20240207T110616Z","priority":"M","status":"completed","uuid":"acda8309-0ce8-4809-a55e-ff20aca12d46"}
+{"description":"reexport leptos and simplify the use directives","entry":"20240207T110644Z","modified":"20240207T110644Z","priority":"H","status":"pending","uuid":"a7cbf950-171c-4256-afca-864d5600d48f"}
+{"description":"reexport leptos and simplify the use directives","entry":"20240207T110644Z","modified":"20240207T110647Z","priority":"H","start":"20240207T110647Z","status":"pending","uuid":"a7cbf950-171c-4256-afca-864d5600d48f"}

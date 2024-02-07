@@ -1,2 +1,2 @@
 [description:"create a blog list page with some blog posts" entry:"1707231723" modified:"1707231723" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"c63c6fb3-6465-4086-8922-5e0799e9e3ad"]
-[description:"refactor use of global context" entry:"1707303300" modified:"1707303547" priority:"M" start:"1707303547" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
+[description:"reexport leptos and simplify the use directives" entry:"1707304004" modified:"1707304007" priority:"H" start:"1707304007" status:"pending" uuid:"a7cbf950-171c-4256-afca-864d5600d48f"]
