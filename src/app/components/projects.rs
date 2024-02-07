@@ -1,8 +1,6 @@
-mod project_card;
-
+use super::ProjectCard;
 use crate::{Project, ProjectStatus};
 use leptos::{component, create_signal, view, CollectView, IntoView};
-use project_card::*;
 
 #[component]
 pub fn Projects() -> impl IntoView {
