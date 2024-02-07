@@ -2,7 +2,7 @@ mod about_me;
 mod hero;
 mod projects;
 
-use crate::app::Nav;
+use crate::app::components::Nav;
 use about_me::*;
 use hero::*;
 use leptos::{component, view, IntoView};

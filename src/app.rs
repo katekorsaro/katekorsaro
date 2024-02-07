@@ -1,10 +1,9 @@
 mod home;
-mod nav;
+mod components;
 
 use home::*;
 use leptos::{component, view, IntoView};
 use leptos_router::{Route, Router, Routes};
-use nav::*;
 
 #[component]
 pub fn App() -> impl IntoView {
