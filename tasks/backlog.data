@@ -27,3 +27,4 @@
 {"description":"refactor into components and pages","end":"20240207T091102Z","entry":"20240207T070255Z","modified":"20240207T091102Z","priority":"H","status":"completed","uuid":"70ba7c90-1069-48c5-99ab-62b0dd08734b"}
 {"description":"make the whole thing a little bit mobile friendly","end":"20240207T091117Z","entry":"20240207T065031Z","modified":"20240207T091117Z","priority":"M","status":"completed","uuid":"1e64e865-d038-4380-be6d-5a0f334d59b5","tags":["new"]}
 {"description":"logo image as base64 embed into html","entry":"20240207T070327Z","modified":"20240207T091121Z","priority":"M","start":"20240207T091121Z","status":"pending","uuid":"91f33410-abfd-476a-abd4-71de596196f0"}
+{"description":"logo image as base64 embed into html","end":"20240207T094132Z","entry":"20240207T070327Z","modified":"20240207T094132Z","priority":"M","status":"completed","uuid":"91f33410-abfd-476a-abd4-71de596196f0"}

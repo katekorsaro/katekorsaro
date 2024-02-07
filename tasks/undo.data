@@ -103,3 +103,7 @@ time 1707297081
 old [description:"logo image as base64 embed into html" entry:"1707289407" modified:"1707289407" priority:"M" status:"pending" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
 new [description:"logo image as base64 embed into html" entry:"1707289407" modified:"1707297081" priority:"M" start:"1707297081" status:"pending" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
 ---
+time 1707298892
+old [description:"logo image as base64 embed into html" entry:"1707289407" modified:"1707297081" priority:"M" start:"1707297081" status:"pending" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
+new [description:"logo image as base64 embed into html" end:"1707298892" entry:"1707289407" modified:"1707298892" priority:"M" status:"completed" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
+---
