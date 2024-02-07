@@ -30,3 +30,6 @@
 {"description":"logo image as base64 embed into html","end":"20240207T094132Z","entry":"20240207T070327Z","modified":"20240207T094132Z","priority":"M","status":"completed","uuid":"91f33410-abfd-476a-abd4-71de596196f0"}
 {"description":"define app global state and make it available to all components","entry":"20240207T100825Z","modified":"20240207T100825Z","priority":"H","status":"pending","uuid":"d1f954bd-a298-4475-a36c-bac705948248","tags":["new"]}
 {"description":"define app global state and make it available to all components","entry":"20240207T100825Z","modified":"20240207T100827Z","priority":"H","start":"20240207T100827Z","status":"pending","uuid":"d1f954bd-a298-4475-a36c-bac705948248","tags":["new"]}
+{"description":"define app global state and make it available to all components","end":"20240207T105443Z","entry":"20240207T100825Z","modified":"20240207T105443Z","priority":"H","status":"completed","uuid":"d1f954bd-a298-4475-a36c-bac705948248","tags":["new"]}
+{"description":"refactor use of global context","entry":"20240207T105500Z","modified":"20240207T105500Z","priority":"M","status":"pending","uuid":"acda8309-0ce8-4809-a55e-ff20aca12d46"}
+{"description":"refactor use of global context","entry":"20240207T105500Z","modified":"20240207T105907Z","priority":"M","start":"20240207T105907Z","status":"pending","uuid":"acda8309-0ce8-4809-a55e-ff20aca12d46"}

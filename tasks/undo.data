@@ -114,3 +114,14 @@ time 1707300507
 old [description:"define app global state and make it available to all components" entry:"1707300505" modified:"1707300505" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"d1f954bd-a298-4475-a36c-bac705948248"]
 new [description:"define app global state and make it available to all components" entry:"1707300505" modified:"1707300507" priority:"H" start:"1707300507" status:"pending" tags:"new" tags_new:"x" uuid:"d1f954bd-a298-4475-a36c-bac705948248"]
 ---
+time 1707303283
+old [description:"define app global state and make it available to all components" entry:"1707300505" modified:"1707300507" priority:"H" start:"1707300507" status:"pending" tags:"new" tags_new:"x" uuid:"d1f954bd-a298-4475-a36c-bac705948248"]
+new [description:"define app global state and make it available to all components" end:"1707303283" entry:"1707300505" modified:"1707303283" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"d1f954bd-a298-4475-a36c-bac705948248"]
+---
+time 1707303300
+new [description:"refactor use of global context" entry:"1707303300" modified:"1707303300" priority:"M" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
+---
+time 1707303547
+old [description:"refactor use of global context" entry:"1707303300" modified:"1707303300" priority:"M" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
+new [description:"refactor use of global context" entry:"1707303300" modified:"1707303547" priority:"M" start:"1707303547" status:"pending" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
+---
