@@ -33,11 +33,12 @@ fn list_of_all_projects() -> Vec<Project> {
         .project_url("https://github.com/katekorsaro/budgr"),
         Project::new(
             "budgr-tui",
-            "not yet started",
+            "barely started",
             "A front-end for budgr using ratatui rust library",
             ProjectStatus::Red,
         )
-        .tags(vec!["tui", "rust", "finance", "front-end"]),
+        .tags(vec!["tui", "rust", "finance", "front-end"])
+        .project_url("https://github.com/katekorsaro/budgr-tui"),
         Project::new(
             "iron-dice",
             "usable",
