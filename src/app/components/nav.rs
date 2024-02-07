@@ -13,6 +13,7 @@ pub fn Nav() -> impl IntoView {
                         move || state.get().navigation.selected_tab == SelectedTab::Home,
                     )
                 >
+
                     <a href="/">"Home"</a>
                 </li>
                 <li
@@ -22,6 +23,7 @@ pub fn Nav() -> impl IntoView {
                         move || state.get().navigation.selected_tab == SelectedTab::Blog,
                     )
                 >
+
                     <a href="/blog">"Blog"</a>
                 </li>
             </ul>
