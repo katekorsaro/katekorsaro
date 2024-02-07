@@ -64,3 +64,7 @@ time 1707292428
 old [description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707290713" priority:"H" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
 new [description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707292428" priority:"H" start:"1707292428" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
 ---
+time 1707294285
+old [description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707292428" priority:"H" start:"1707292428" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
+new [description:"refactor to read signal... or at least try to" end:"1707294285" entry:"1707290713" modified:"1707294285" priority:"H" status:"completed" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
+---

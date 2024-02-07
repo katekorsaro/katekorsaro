@@ -1,3 +1,4 @@
+[description:"refactor to read signal... or at least try to" end:"1707294285" entry:"1707290713" modified:"1707294285" priority:"H" status:"completed" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
 [description:"review font size" end:"1707290638" entry:"1707289331" modified:"1707290638" priority:"H" status:"completed" uuid:"a08a9197-9e40-4a40-b79d-f1963bb8defc"]
 [description:"refactor module inside app" end:"1707234979" entry:"1707234596" modified:"1707234979" priority:"H" status:"completed" uuid:"7b9d2ffe-c206-40fd-a45a-f48f20125e75"]
 [description:"add router to project" end:"1707234581" entry:"1707232974" modified:"1707234581" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"3d8ed223-2cbb-45ad-a282-0f3945b8ddf7"]
