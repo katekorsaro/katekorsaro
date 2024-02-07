@@ -16,9 +16,9 @@ pub fn ProjectCard(project: Project) -> impl IntoView {
             <h2 class="text-cyan-500 text-lg font-semibold" class=("underline", move || url.is_some())>
                 <a href=move || project.project_url.clone()>{move || project.title.clone()}</a>
             </h2>
-            <p class="text-slate-400">"Status: " {move || project.status.clone()}</p>
+            <p class="text-slate-400 text-xs">"Status: " {move || project.status.clone()}</p>
             <p class="mt-2">{move || project.description.clone()}</p>
-            <p class="text-slate-500 mt-2">
+            <p class="text-slate-500 mt-2 text-xs">
 
                 {move || {
                     project
