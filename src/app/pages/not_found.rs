@@ -1,10 +1,11 @@
-use leptos::{component, view, IntoView};
+use crate::*;
 
 #[component]
 pub fn NotFound() -> impl IntoView {
     view! {
-        <div class="container mx-auto mt-8">
-            <h1 class="text-lg">"This is not the page you're looking for..."</h1>
+        <Nav/>
+        <div class="container mx-auto mt-16 text-center">
+            <h1 class="text-lg text-pink-500">"This is not the page you're looking for..."</h1>
         </div>
     }
 }
