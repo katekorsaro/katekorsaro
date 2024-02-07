@@ -1,5 +1,4 @@
 [description:"create a blog list page with some blog posts" entry:"1707231723" modified:"1707231723" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"c63c6fb3-6465-4086-8922-5e0799e9e3ad"]
 [description:"make the whole thing a little bit mobile friendly" entry:"1707288631" modified:"1707288631" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"1e64e865-d038-4380-be6d-5a0f334d59b5"]
-[description:"refactor into components and pages" entry:"1707289375" modified:"1707289375" priority:"H" status:"pending" uuid:"70ba7c90-1069-48c5-99ab-62b0dd08734b"]
+[description:"refactor into components and pages" entry:"1707289375" modified:"1707295443" priority:"H" start:"1707295443" status:"pending" uuid:"70ba7c90-1069-48c5-99ab-62b0dd08734b"]
 [description:"logo image as base64 embed into html" entry:"1707289407" modified:"1707289407" priority:"M" status:"pending" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
-[description:"list projects alphabetically" entry:"1707294741" modified:"1707294741" priority:"M" status:"pending" uuid:"7d093255-157c-4b7e-8c92-608fb71f07bc"]
