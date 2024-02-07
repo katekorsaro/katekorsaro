@@ -1,5 +1,6 @@
 #! /bin/bash
 
+clear
 trunk build --release
 rm ../katekorsaro.github.io/* 2> /dev/null
 cp ./dist/* ../katekorsaro.github.io/
