@@ -1,8 +1,5 @@
-mod projects;
-
-use crate::app::components::{Nav,AboutMe,Hero};
+use crate::app::components::{AboutMe, Hero, Nav, Projects};
 use leptos::{component, view, IntoView};
-use projects::*;
 
 #[component]
 pub fn Home() -> impl IntoView {

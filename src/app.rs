@@ -1,5 +1,5 @@
-mod home;
 mod components;
+mod home;
 
 use home::*;
 use leptos::{component, view, IntoView};
