@@ -1,8 +1,6 @@
-mod hero;
 mod projects;
 
-use crate::app::components::{Nav,AboutMe};
-use hero::*;
+use crate::app::components::{Nav,AboutMe,Hero};
 use leptos::{component, view, IntoView};
 use projects::*;
 
