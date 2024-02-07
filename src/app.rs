@@ -3,7 +3,7 @@ mod pages;
 
 use leptos::{component, view, IntoView};
 use leptos_router::{Route, Router, Routes};
-use pages::Home;
+use pages::*;
 
 #[component]
 pub fn App() -> impl IntoView {
@@ -12,6 +12,7 @@ pub fn App() -> impl IntoView {
             <main>
                 <Routes>
                     <Route path="/" view=Home/>
+                    <Route path="/blog" view=Blog/>
                 </Routes>
             </main>
         </Router>
