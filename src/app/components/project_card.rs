@@ -1,5 +1,4 @@
-use crate::{Project, ProjectStatus};
-use leptos::{component, view, IntoView, ReadSignal, SignalGet};
+use crate::*;
 
 #[component]
 pub fn ProjectCard(project: ReadSignal<Project>) -> impl IntoView {

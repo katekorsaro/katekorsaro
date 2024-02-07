@@ -1,4 +1,4 @@
-use leptos::{component, view, IntoView};
+use crate::*;
 
 #[component]
 pub fn Hero() -> impl IntoView {

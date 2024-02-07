@@ -1,9 +1,8 @@
-use crate::state::*;
-use leptos::{component, use_context, view, IntoView, ReadSignal, SignalGet, WriteSignal};
+use crate::*;
 
 #[component]
 pub fn Nav() -> impl IntoView {
-    let (state, _set_state): (ReadSignal<State>, WriteSignal<State>) = use_context().unwrap();
+    let (state, _set_state) = crate::use_state();
     view! {
         <div class="container mx-auto text-right mt-4">
             <ul>

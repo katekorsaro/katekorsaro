@@ -1,14 +1,13 @@
 mod components;
 mod pages;
 
-use crate::state::*;
-use leptos::*;
-use leptos_router::{Route, Router, Routes};
-use pages::*;
+use crate::*;
+pub use components::*;
+pub use pages::*;
 
 #[component]
 pub fn App() -> impl IntoView {
-    let (state, set_state) = create_signal(State::new());
+    let (state, set_state) = create_signal(crate::state::State::new());
     provide_context((state, set_state));
     view! {
         <Router>
@@ -22,6 +21,6 @@ pub fn App() -> impl IntoView {
     }
 }
 
-pub fn use_state () -> (ReadSignal<State>, WriteSignal<State>) {
+pub fn use_state() -> (ReadSignal<crate::state::State>, WriteSignal<crate::state::State>) {
     use_context().unwrap()
 }

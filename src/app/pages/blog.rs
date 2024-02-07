@@ -1,7 +1,7 @@
 use crate::app::components::Nav;
 use crate::state::*;
-use leptos::{component, view, IntoView, SignalUpdate};
 use crate::use_state;
+use leptos::{component, view, IntoView, SignalUpdate};
 
 #[component]
 pub fn Blog() -> impl IntoView {
