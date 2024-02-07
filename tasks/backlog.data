@@ -8,3 +8,9 @@
 {"description":"refactor module inside app","entry":"20240206T154956Z","modified":"20240206T154956Z","priority":"H","status":"pending","uuid":"7b9d2ffe-c206-40fd-a45a-f48f20125e75"}
 {"description":"refactor module inside app","entry":"20240206T154956Z","modified":"20240206T154958Z","priority":"H","start":"20240206T154958Z","status":"pending","uuid":"7b9d2ffe-c206-40fd-a45a-f48f20125e75"}
 {"description":"refactor module inside app","end":"20240206T155619Z","entry":"20240206T154956Z","modified":"20240206T155619Z","priority":"H","status":"completed","uuid":"7b9d2ffe-c206-40fd-a45a-f48f20125e75"}
+{"description":"make the whole thing a little bit mobile friendly","entry":"20240207T065031Z","modified":"20240207T065031Z","priority":"M","status":"pending","uuid":"1e64e865-d038-4380-be6d-5a0f334d59b5","tags":["new"]}
+{"description":"review font size","entry":"20240207T070211Z","modified":"20240207T070211Z","priority":"H","status":"pending","uuid":"a08a9197-9e40-4a40-b79d-f1963bb8defc"}
+{"description":"review font size","entry":"20240207T070211Z","modified":"20240207T070213Z","priority":"H","start":"20240207T070213Z","status":"pending","uuid":"a08a9197-9e40-4a40-b79d-f1963bb8defc"}
+{"description":"refactor into components and pages","entry":"20240207T070255Z","modified":"20240207T070255Z","priority":"H","status":"pending","uuid":"70ba7c90-1069-48c5-99ab-62b0dd08734b"}
+{"description":"logo image as base64 embed into html","entry":"20240207T070327Z","modified":"20240207T070327Z","priority":"M","status":"pending","uuid":"91f33410-abfd-476a-abd4-71de596196f0"}
+{"description":"review status border color for projects","entry":"20240207T070411Z","modified":"20240207T070411Z","priority":"M","status":"pending","uuid":"43a50d98-1360-4b8f-bc1b-4d2a7e32a2ba"}
