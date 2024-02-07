@@ -1,7 +1,7 @@
 mod project_card;
 
 use crate::{Project, ProjectStatus};
-use leptos::{component, view, For, IntoView};
+use leptos::{component, create_signal, view, CollectView, IntoView};
 use project_card::*;
 
 #[component]
@@ -10,9 +10,16 @@ pub fn Projects() -> impl IntoView {
         <div class="container mt-8 mx-auto">
             <h1 class="text-pink-500 font-semibold text-xl">"Current Projects"</h1>
             <div class="grid gridcols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-                <For each=list_of_all_projects key=|state| state.title.clone() let:project>
-                    <ProjectCard project=project/>
-                </For>
+
+                {
+                    let projects = list_of_all_projects();
+                    projects
+                        .into_iter()
+                        .map(|project| create_signal(project))
+                        .map(|(read, _)| view! { <ProjectCard project=read/> })
+                        .collect_view()
+                }
+
             </div>
         </div>
     }
