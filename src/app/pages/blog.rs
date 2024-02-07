@@ -1,10 +1,11 @@
 use crate::app::components::Nav;
 use crate::state::*;
-use leptos::{component, use_context, view, IntoView, ReadSignal, SignalUpdate, WriteSignal};
+use leptos::{component, view, IntoView, SignalUpdate};
+use crate::use_state;
 
 #[component]
 pub fn Blog() -> impl IntoView {
-    let (_state, set_state): (ReadSignal<State>, WriteSignal<State>) = use_context().unwrap();
+    let (_state, set_state) = use_state();
     set_state.update(|x| x.navigation.selected_tab = SelectedTab::Blog);
     view! {
         <Nav/>
