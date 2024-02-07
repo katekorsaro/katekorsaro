@@ -24,3 +24,6 @@
 {"description":"list projects alphabetically","entry":"20240207T083221Z","modified":"20240207T083433Z","priority":"M","start":"20240207T083433Z","status":"pending","uuid":"7d093255-157c-4b7e-8c92-608fb71f07bc"}
 {"description":"list projects alphabetically","end":"20240207T084112Z","entry":"20240207T083221Z","modified":"20240207T084112Z","priority":"M","status":"completed","uuid":"7d093255-157c-4b7e-8c92-608fb71f07bc"}
 {"description":"refactor into components and pages","entry":"20240207T070255Z","modified":"20240207T084403Z","priority":"H","start":"20240207T084403Z","status":"pending","uuid":"70ba7c90-1069-48c5-99ab-62b0dd08734b"}
+{"description":"refactor into components and pages","end":"20240207T091102Z","entry":"20240207T070255Z","modified":"20240207T091102Z","priority":"H","status":"completed","uuid":"70ba7c90-1069-48c5-99ab-62b0dd08734b"}
+{"description":"make the whole thing a little bit mobile friendly","end":"20240207T091117Z","entry":"20240207T065031Z","modified":"20240207T091117Z","priority":"M","status":"completed","uuid":"1e64e865-d038-4380-be6d-5a0f334d59b5","tags":["new"]}
+{"description":"logo image as base64 embed into html","entry":"20240207T070327Z","modified":"20240207T091121Z","priority":"M","start":"20240207T091121Z","status":"pending","uuid":"91f33410-abfd-476a-abd4-71de596196f0"}

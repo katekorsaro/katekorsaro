@@ -1,3 +1,5 @@
+[description:"make the whole thing a little bit mobile friendly" end:"1707297077" entry:"1707288631" modified:"1707297077" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"1e64e865-d038-4380-be6d-5a0f334d59b5"]
+[description:"refactor into components and pages" end:"1707297062" entry:"1707289375" modified:"1707297062" priority:"H" status:"completed" uuid:"70ba7c90-1069-48c5-99ab-62b0dd08734b"]
 [description:"list projects alphabetically" end:"1707295272" entry:"1707294741" modified:"1707295272" priority:"M" status:"completed" uuid:"7d093255-157c-4b7e-8c92-608fb71f07bc"]
 [description:"review status border color for projects" end:"1707294719" entry:"1707289451" modified:"1707294719" priority:"M" status:"completed" uuid:"43a50d98-1360-4b8f-bc1b-4d2a7e32a2ba"]
 [description:"refactor to read signal... or at least try to" end:"1707294285" entry:"1707290713" modified:"1707294285" priority:"H" status:"completed" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
