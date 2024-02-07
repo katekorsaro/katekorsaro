@@ -8,7 +8,7 @@ use project_card::*;
 pub fn Projects() -> impl IntoView {
     view! {
         <div class="container mt-8 mx-auto">
-            <h1 class="text-lg text-pink-500 font-semibold">"Current Projects"</h1>
+            <h1 class="text-pink-500 font-semibold">"Current Projects"</h1>
             <div class="grid grid-cols-3 gap-4 mt-4">
                 <For each=list_of_all_projects key=|state| state.title.clone() let:project>
                     <ProjectCard project=project/>

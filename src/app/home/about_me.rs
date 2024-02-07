@@ -4,7 +4,7 @@ use leptos::{component, view, IntoView};
 pub fn AboutMe() -> impl IntoView {
     view! {
         <div class="container mt-8 mx-auto">
-            <h1 class="text-lg text-pink-500 font-semibold">"About Me"</h1>
+            <h1 class="text-pink-500 font-semibold">"About Me"</h1>
 
             <div class="columns-2">
                 <ul class="list-disc ms-4">
