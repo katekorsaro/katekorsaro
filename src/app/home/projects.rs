@@ -26,7 +26,7 @@ pub fn Projects() -> impl IntoView {
 }
 
 fn list_of_all_projects() -> Vec<Project> {
-    vec![
+    let mut projects = vec![
         Project::new(
             "budgr",
             "work in progress",
@@ -58,5 +58,8 @@ fn list_of_all_projects() -> Vec<Project> {
         )
         .tags(vec!["rpg", "game", "tabletop"])
         .project_url("https://github.com/katekorsaro/2d6-tales-srd"),
-    ]
+    ];
+
+    projects.sort_by(|a, b| a.title.cmp(&b.title));
+    projects
 }
