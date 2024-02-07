@@ -2,7 +2,7 @@ use crate::*;
 
 #[component]
 pub fn Nav() -> impl IntoView {
-    let (state, _set_state) = crate::use_state();
+    let (state, _set_state) = use_state();
     view! {
         <div class="container mx-auto text-right mt-4">
             <ul>
