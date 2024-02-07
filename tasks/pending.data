@@ -3,4 +3,4 @@
 [description:"refactor into components and pages" entry:"1707289375" modified:"1707289375" priority:"H" status:"pending" uuid:"70ba7c90-1069-48c5-99ab-62b0dd08734b"]
 [description:"logo image as base64 embed into html" entry:"1707289407" modified:"1707289407" priority:"M" status:"pending" uuid:"91f33410-abfd-476a-abd4-71de596196f0"]
 [description:"review status border color for projects" entry:"1707289451" modified:"1707289451" priority:"M" status:"pending" uuid:"43a50d98-1360-4b8f-bc1b-4d2a7e32a2ba"]
-[description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707290713" priority:"H" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
+[description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707292428" priority:"H" start:"1707292428" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]

@@ -16,3 +16,4 @@
 {"description":"review status border color for projects","entry":"20240207T070411Z","modified":"20240207T070411Z","priority":"M","status":"pending","uuid":"43a50d98-1360-4b8f-bc1b-4d2a7e32a2ba"}
 {"description":"review font size","end":"20240207T072358Z","entry":"20240207T070211Z","modified":"20240207T072358Z","priority":"H","status":"completed","uuid":"a08a9197-9e40-4a40-b79d-f1963bb8defc"}
 {"description":"refactor to read signal... or at least try to","entry":"20240207T072513Z","modified":"20240207T072513Z","priority":"H","status":"pending","uuid":"2812f1d4-acee-4217-97cd-e70c9284d923"}
+{"description":"refactor to read signal... or at least try to","entry":"20240207T072513Z","modified":"20240207T075348Z","priority":"H","start":"20240207T075348Z","status":"pending","uuid":"2812f1d4-acee-4217-97cd-e70c9284d923"}
