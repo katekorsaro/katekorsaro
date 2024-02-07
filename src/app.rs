@@ -1,10 +1,10 @@
 mod components;
 mod pages;
 
-use leptos::{component, view, IntoView, create_signal,provide_context};
+use crate::state::*;
+use leptos::{component, create_signal, provide_context, view, IntoView};
 use leptos_router::{Route, Router, Routes};
 use pages::*;
-use crate::state::*;
 
 #[component]
 pub fn App() -> impl IntoView {

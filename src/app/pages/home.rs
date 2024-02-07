@@ -1,6 +1,6 @@
 use crate::app::components::{AboutMe, Hero, Nav, Projects};
-use leptos::{component, view, IntoView, ReadSignal, WriteSignal, use_context, SignalUpdate};
 use crate::state::*;
+use leptos::{component, use_context, view, IntoView, ReadSignal, SignalUpdate, WriteSignal};
 
 #[component]
 pub fn Home() -> impl IntoView {

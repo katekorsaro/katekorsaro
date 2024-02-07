@@ -4,7 +4,7 @@ pub struct State {
 }
 
 impl State {
-    pub fn new () -> Self {
+    pub fn new() -> Self {
         State {
             navigation: Navigation::new(),
         }
@@ -17,14 +17,14 @@ pub struct Navigation {
 }
 
 impl Navigation {
-    pub fn new () -> Self {
+    pub fn new() -> Self {
         Navigation {
             selected_tab: SelectedTab::Home,
         }
     }
 }
 
-#[derive(Clone,Debug,PartialEq)]
+#[derive(Clone, Debug, PartialEq)]
 pub enum SelectedTab {
     Home,
     Blog,

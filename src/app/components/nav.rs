@@ -1,5 +1,5 @@
-use leptos::{component, view, IntoView, use_context, ReadSignal, WriteSignal, SignalGet};
 use crate::state::*;
+use leptos::{component, use_context, view, IntoView, ReadSignal, SignalGet, WriteSignal};
 
 #[component]
 pub fn Nav() -> impl IntoView {
@@ -7,13 +7,21 @@ pub fn Nav() -> impl IntoView {
     view! {
         <div class="container mx-auto text-right mt-4">
             <ul>
-                <li class="inline-block underline p-2 rounded rounded-4"
-                    class=("bg-slate-700", move || state.get().navigation.selected_tab == SelectedTab::Home)
+                <li
+                    class="inline-block underline p-2 rounded rounded-4"
+                    class=(
+                        "bg-slate-700",
+                        move || state.get().navigation.selected_tab == SelectedTab::Home,
+                    )
                 >
                     <a href="/">"Home"</a>
                 </li>
-                <li class="inline-block underline p-2 rounded rounded-4"
-                    class=("bg-slate-700", move || state.get().navigation.selected_tab == SelectedTab::Blog)
+                <li
+                    class="inline-block underline p-2 rounded rounded-4"
+                    class=(
+                        "bg-slate-700",
+                        move || state.get().navigation.selected_tab == SelectedTab::Blog,
+                    )
                 >
                     <a href="/blog">"Blog"</a>
                 </li>
