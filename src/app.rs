@@ -15,12 +15,16 @@ pub fn App() -> impl IntoView {
                 <Routes>
                     <Route path="/" view=Home/>
                     <Route path="/blog" view=Blog/>
+                    <Route path="/*" view=NotFound/>
                 </Routes>
             </main>
         </Router>
     }
 }
 
-pub fn use_state() -> (ReadSignal<crate::state::State>, WriteSignal<crate::state::State>) {
+pub fn use_state() -> (
+    ReadSignal<crate::state::State>,
+    WriteSignal<crate::state::State>,
+) {
     use_context().unwrap()
 }
