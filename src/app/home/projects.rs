@@ -9,7 +9,7 @@ pub fn Projects() -> impl IntoView {
     view! {
         <div class="container mt-8 mx-auto">
             <h1 class="text-pink-500 font-semibold text-xl">"Current Projects"</h1>
-            <div class="grid gridcols-1 sm:grid-cols-3 gap-4 mt-4">
+            <div class="grid gridcols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
                 <For each=list_of_all_projects key=|state| state.title.clone() let:project>
                     <ProjectCard project=project/>
                 </For>
