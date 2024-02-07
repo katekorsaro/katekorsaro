@@ -5,9 +5,9 @@ use leptos::{component, view, IntoView, ReadSignal, SignalGet};
 pub fn ProjectCard(project: ReadSignal<Project>) -> impl IntoView {
     view! {
         <div
-            class=("border-red-500", move || project.get().status_tag == ProjectStatus::Red)
-            class=("border-amber-500", move || project.get().status_tag == ProjectStatus::Amber)
-            class=("border-emerald-500", move || project.get().status_tag == ProjectStatus::Emerald)
+            class=("border-rose-500", move || project.get().status_tag == ProjectStatus::Red)
+            class=("border-orange-500", move || project.get().status_tag == ProjectStatus::Amber)
+            class=("border-lime-500", move || project.get().status_tag == ProjectStatus::Emerald)
             class=("border-cyan-500", move || project.get().status_tag == ProjectStatus::Cyan)
             class="bg-slate-900 rounded rounded-4 p-2 border-s-4 shadow"
         >
