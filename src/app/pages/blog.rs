@@ -1,7 +1,4 @@
-use crate::app::components::Nav;
-use crate::state::*;
-use crate::use_state;
-use leptos::{component, view, IntoView, SignalUpdate};
+use crate::*;
 
 #[component]
 pub fn Blog() -> impl IntoView {
@@ -10,7 +7,7 @@ pub fn Blog() -> impl IntoView {
     view! {
         <Nav/>
         <div class="container mt-16 mx-auto text-center">
-            <h1 class="text-3xl text-pink-500">Coming soon...</h1>
+            <h1 class="text-3xl text-rose-500">Coming soon...</h1>
         </div>
     }
 }
