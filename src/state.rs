@@ -24,9 +24,8 @@ impl Navigation {
     }
 }
 
-#[derive(Clone)]
+#[derive(Clone,Debug,PartialEq)]
 pub enum SelectedTab {
-    None,
     Home,
     Blog,
 }
