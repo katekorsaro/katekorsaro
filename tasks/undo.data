@@ -68,3 +68,7 @@ time 1707294285
 old [description:"refactor to read signal... or at least try to" entry:"1707290713" modified:"1707292428" priority:"H" start:"1707292428" status:"pending" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
 new [description:"refactor to read signal... or at least try to" end:"1707294285" entry:"1707290713" modified:"1707294285" priority:"H" status:"completed" uuid:"2812f1d4-acee-4217-97cd-e70c9284d923"]
 ---
+time 1707294404
+old [description:"review status border color for projects" entry:"1707289451" modified:"1707289451" priority:"M" status:"pending" uuid:"43a50d98-1360-4b8f-bc1b-4d2a7e32a2ba"]
+new [description:"review status border color for projects" entry:"1707289451" modified:"1707294404" priority:"M" start:"1707294404" status:"pending" uuid:"43a50d98-1360-4b8f-bc1b-4d2a7e32a2ba"]
+---
