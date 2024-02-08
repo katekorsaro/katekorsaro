@@ -221,3 +221,14 @@ time 1707387320
 old [description:"format blog post date" entry:"1707387319" modified:"1707387319" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
 new [description:"format blog post date" entry:"1707387319" modified:"1707387320" priority:"H" start:"1707387320" status:"pending" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
 ---
+time 1707387942
+old [description:"format blog post date" entry:"1707387319" modified:"1707387320" priority:"H" start:"1707387320" status:"pending" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
+new [description:"format blog post date" end:"1707387942" entry:"1707387319" modified:"1707387942" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
+---
+time 1707387963
+new [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387963" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
+---
+time 1707387964
+old [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387963" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
+new [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387964" priority:"H" start:"1707387964" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
+---
