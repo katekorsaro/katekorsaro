@@ -1,3 +1,4 @@
+[description:"light theme" end:"1707375070" entry:"1707373285" modified:"1707375070" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"099bfd80-7890-4c7e-9daf-8c09c641ab7c"]
 [description:"404 not found" end:"1707373262" entry:"1707306085" modified:"1707373262" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"fce340fd-e303-44bf-b22d-401e151f7a31"]
 [description:"reexport leptos and simplify the use directives" end:"1707306065" entry:"1707304004" modified:"1707306065" priority:"H" status:"completed" uuid:"a7cbf950-171c-4256-afca-864d5600d48f"]
 [description:"refactor use of global context" end:"1707303976" entry:"1707303300" modified:"1707303976" priority:"M" status:"completed" uuid:"acda8309-0ce8-4809-a55e-ff20aca12d46"]
