@@ -63,3 +63,5 @@
 {"description":"sort blog posts. most recent first","entry":"20240208T102603Z","modified":"20240208T102603Z","priority":"H","status":"pending","uuid":"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2","tags":["new"]}
 {"description":"sort blog posts. most recent first","entry":"20240208T102603Z","modified":"20240208T102604Z","priority":"H","start":"20240208T102604Z","status":"pending","uuid":"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2","tags":["new"]}
 {"description":"sort blog posts. most recent first","end":"20240208T103153Z","entry":"20240208T102603Z","modified":"20240208T103153Z","priority":"H","status":"completed","uuid":"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2","tags":["new"]}
+{"description":"format blog post with some line break","entry":"20240208T104539Z","modified":"20240208T104539Z","priority":"H","status":"pending","uuid":"d075cff0-11d2-4892-a0d5-c513de027f2f","tags":["new"]}
+{"description":"format blog post with some line break","entry":"20240208T104539Z","modified":"20240208T104541Z","priority":"H","start":"20240208T104541Z","status":"pending","uuid":"d075cff0-11d2-4892-a0d5-c513de027f2f","tags":["new"]}

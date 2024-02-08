@@ -236,3 +236,10 @@ time 1707388313
 old [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387964" priority:"H" start:"1707387964" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
 new [description:"sort blog posts. most recent first" end:"1707388313" entry:"1707387963" modified:"1707388313" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
 ---
+time 1707389139
+new [description:"format blog post with some line break" entry:"1707389139" modified:"1707389139" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"d075cff0-11d2-4892-a0d5-c513de027f2f"]
+---
+time 1707389141
+old [description:"format blog post with some line break" entry:"1707389139" modified:"1707389139" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"d075cff0-11d2-4892-a0d5-c513de027f2f"]
+new [description:"format blog post with some line break" entry:"1707389139" modified:"1707389141" priority:"H" start:"1707389141" status:"pending" tags:"new" tags_new:"x" uuid:"d075cff0-11d2-4892-a0d5-c513de027f2f"]
+---
