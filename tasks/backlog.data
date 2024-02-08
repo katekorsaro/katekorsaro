@@ -55,3 +55,7 @@
 {"description":"create a blog list page with some blog posts","entry":"20240206T150203Z","modified":"20240208T084618Z","priority":"M","start":"20240208T084618Z","status":"pending","uuid":"c63c6fb3-6465-4086-8922-5e0799e9e3ad","tags":["new"]}
 {"description":"refactor project data into module","entry":"20240208T085224Z","modified":"20240208T085224Z","priority":"H","status":"pending","uuid":"4f5dd617-b914-49aa-89d5-006a1f9fcf5d","tags":["new"]}
 {"description":"refactor project data into module","entry":"20240208T085224Z","modified":"20240208T085226Z","priority":"H","start":"20240208T085226Z","status":"pending","uuid":"4f5dd617-b914-49aa-89d5-006a1f9fcf5d","tags":["new"]}
+{"description":"refactor project data into module","end":"20240208T090234Z","entry":"20240208T085224Z","modified":"20240208T090234Z","priority":"H","status":"completed","uuid":"4f5dd617-b914-49aa-89d5-006a1f9fcf5d","tags":["new"]}
+{"description":"create a blog list page with some blog posts","end":"20240208T101505Z","entry":"20240206T150203Z","modified":"20240208T101505Z","priority":"M","status":"completed","uuid":"c63c6fb3-6465-4086-8922-5e0799e9e3ad","tags":["new"]}
+{"description":"format blog post date","entry":"20240208T101519Z","modified":"20240208T101519Z","priority":"H","status":"pending","uuid":"ce7d8623-5e5d-4fd5-88df-2270b501f8e1","tags":["new"]}
+{"description":"format blog post date","entry":"20240208T101519Z","modified":"20240208T101520Z","priority":"H","start":"20240208T101520Z","status":"pending","uuid":"ce7d8623-5e5d-4fd5-88df-2270b501f8e1","tags":["new"]}

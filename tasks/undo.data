@@ -206,3 +206,18 @@ time 1707382346
 old [description:"refactor project data into module" entry:"1707382344" modified:"1707382344" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"4f5dd617-b914-49aa-89d5-006a1f9fcf5d"]
 new [description:"refactor project data into module" entry:"1707382344" modified:"1707382346" priority:"H" start:"1707382346" status:"pending" tags:"new" tags_new:"x" uuid:"4f5dd617-b914-49aa-89d5-006a1f9fcf5d"]
 ---
+time 1707382954
+old [description:"refactor project data into module" entry:"1707382344" modified:"1707382346" priority:"H" start:"1707382346" status:"pending" tags:"new" tags_new:"x" uuid:"4f5dd617-b914-49aa-89d5-006a1f9fcf5d"]
+new [description:"refactor project data into module" end:"1707382954" entry:"1707382344" modified:"1707382954" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"4f5dd617-b914-49aa-89d5-006a1f9fcf5d"]
+---
+time 1707387305
+old [description:"create a blog list page with some blog posts" entry:"1707231723" modified:"1707381978" priority:"M" start:"1707381978" status:"pending" tags:"new" tags_new:"x" uuid:"c63c6fb3-6465-4086-8922-5e0799e9e3ad"]
+new [description:"create a blog list page with some blog posts" end:"1707387305" entry:"1707231723" modified:"1707387305" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"c63c6fb3-6465-4086-8922-5e0799e9e3ad"]
+---
+time 1707387319
+new [description:"format blog post date" entry:"1707387319" modified:"1707387319" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
+---
+time 1707387320
+old [description:"format blog post date" entry:"1707387319" modified:"1707387319" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
+new [description:"format blog post date" entry:"1707387319" modified:"1707387320" priority:"H" start:"1707387320" status:"pending" tags:"new" tags_new:"x" uuid:"ce7d8623-5e5d-4fd5-88df-2270b501f8e1"]
+---
