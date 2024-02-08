@@ -21,10 +21,10 @@ pub fn AboutMe() -> impl IntoView {
                     <li>"Web development (not much to be honest, but it's trendy)"</li>
                     <li>
                         <u>"Roleplaying"</u>
-                        " games"
+                        " games. Started back into the 90s (giving away my age) with some Cyberpunk 2020 and some good old AD&D."
                     </li>
-                    <li>"Working as a full time developer and team lead"</li>
-                    <li>"And in my spare time"</li>
+                    <li>"Working as a "<u>"full time developer"</u>" and team lead"</li>
+                    <li>"And in my spare time I'm wating time with some useless projects. Here below a little list of my latest endeavours."</li>
                 </ul>
             </div>
 
