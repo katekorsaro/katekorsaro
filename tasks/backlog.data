@@ -51,3 +51,5 @@
 {"description":"refactor navbar with an iteration","entry":"20240208T082321Z","modified":"20240208T082321Z","priority":"M","status":"pending","uuid":"f8501c11-ccc9-4fd8-adfb-275cd20240bc"}
 {"description":"nav style in dark mode: pink underline","end":"20240208T082836Z","entry":"20240208T081351Z","modified":"20240208T082836Z","priority":"H","status":"completed","uuid":"31ab0d45-d617-442e-bf7b-117c5e6f0b49","tags":["new"]}
 {"description":"refactor navbar with an iteration","entry":"20240208T082321Z","modified":"20240208T082847Z","priority":"M","start":"20240208T082847Z","status":"pending","uuid":"f8501c11-ccc9-4fd8-adfb-275cd20240bc"}
+{"description":"refactor navbar with an iteration","end":"20240208T084610Z","entry":"20240208T082321Z","modified":"20240208T084610Z","priority":"M","status":"completed","uuid":"f8501c11-ccc9-4fd8-adfb-275cd20240bc"}
+{"description":"create a blog list page with some blog posts","entry":"20240206T150203Z","modified":"20240208T084618Z","priority":"M","start":"20240208T084618Z","status":"pending","uuid":"c63c6fb3-6465-4086-8922-5e0799e9e3ad","tags":["new"]}

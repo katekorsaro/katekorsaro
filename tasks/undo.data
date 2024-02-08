@@ -191,3 +191,11 @@ time 1707380927
 old [description:"refactor navbar with an iteration" entry:"1707380601" modified:"1707380601" priority:"M" status:"pending" uuid:"f8501c11-ccc9-4fd8-adfb-275cd20240bc"]
 new [description:"refactor navbar with an iteration" entry:"1707380601" modified:"1707380927" priority:"M" start:"1707380927" status:"pending" uuid:"f8501c11-ccc9-4fd8-adfb-275cd20240bc"]
 ---
+time 1707381970
+old [description:"refactor navbar with an iteration" entry:"1707380601" modified:"1707380927" priority:"M" start:"1707380927" status:"pending" uuid:"f8501c11-ccc9-4fd8-adfb-275cd20240bc"]
+new [description:"refactor navbar with an iteration" end:"1707381970" entry:"1707380601" modified:"1707381970" priority:"M" status:"completed" uuid:"f8501c11-ccc9-4fd8-adfb-275cd20240bc"]
+---
+time 1707381978
+old [description:"create a blog list page with some blog posts" entry:"1707231723" modified:"1707231723" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"c63c6fb3-6465-4086-8922-5e0799e9e3ad"]
+new [description:"create a blog list page with some blog posts" entry:"1707231723" modified:"1707381978" priority:"M" start:"1707381978" status:"pending" tags:"new" tags_new:"x" uuid:"c63c6fb3-6465-4086-8922-5e0799e9e3ad"]
+---
