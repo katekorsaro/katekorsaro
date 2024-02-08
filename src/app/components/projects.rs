@@ -4,7 +4,7 @@ use crate::*;
 pub fn Projects() -> impl IntoView {
     view! {
         <div class="container mt-8 mx-auto">
-            <h1 class="text-rose-500 font-semibold text-xl">"Current Projects"</h1>
+            <h1 class="text-rose-900 font-semibold text-xl">"Current Projects"</h1>
             <div class="grid gridcols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
 
                 {

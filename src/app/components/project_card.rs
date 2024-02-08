@@ -4,14 +4,14 @@ use crate::*;
 pub fn ProjectCard(project: ReadSignal<Project>) -> impl IntoView {
     view! {
         <div
-            class=("border-rose-500", move || project.get().status_tag == ProjectStatus::Red)
-            class=("border-orange-500", move || project.get().status_tag == ProjectStatus::Amber)
-            class=("border-lime-500", move || project.get().status_tag == ProjectStatus::Emerald)
+            class=("border-red-500", move || project.get().status_tag == ProjectStatus::Red)
+            class=("border-amber-500", move || project.get().status_tag == ProjectStatus::Amber)
+            class=("border-emerald-500", move || project.get().status_tag == ProjectStatus::Emerald)
             class=("border-cyan-500", move || project.get().status_tag == ProjectStatus::Cyan)
-            class="bg-slate-900 rounded rounded-4 p-2 border-s-4 shadow"
+            class="bg-slate-300 rounded rounded-4 p-2 border-s-4 shadow-md"
         >
             <h2
-                class="text-cyan-500 text-lg font-semibold"
+                class="text-slate-800 text-lg font-semibold"
                 class=("underline", move || project.get().project_url.is_some())
             >
                 <a href=move || {

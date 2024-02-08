@@ -7,7 +7,7 @@ pub fn Blog() -> impl IntoView {
     view! {
         <Nav/>
         <div class="container mt-16 mx-auto text-center">
-            <h1 class="text-3xl text-rose-500">Coming soon...</h1>
+            <h1 class="text-3xl text-rose-900">Coming soon...</h1>
         </div>
     }
 }

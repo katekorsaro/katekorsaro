@@ -9,7 +9,7 @@ pub fn Nav() -> impl IntoView {
                 <li
                     class="inline-block underline p-2 rounded rounded-4"
                     class=(
-                        "bg-slate-700",
+                        "bg-slate-300",
                         move || state.get().navigation.selected_tab == SelectedTab::Home,
                     )
                 >
