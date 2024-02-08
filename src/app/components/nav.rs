@@ -21,18 +21,22 @@ pub fn Nav() -> impl IntoView {
                                     "underline",
                                     move || { state.with(|s| s.navigation.selected_tab == *nav.1) },
                                 )
+
                                 class=(
                                     "decoration-2",
                                     move || { state.with(|s| s.navigation.selected_tab == *nav.1) },
                                 )
+
                                 class=(
                                     "underline-offset-2",
                                     move || { state.with(|s| s.navigation.selected_tab == *nav.1) },
                                 )
+
                                 class=(
                                     "decoration-rose-900",
                                     move || { state.with(|s| s.navigation.selected_tab == *nav.1) },
                                 )
+
                                 class=(
                                     "dark:decoration-rose-500",
                                     move || { state.with(|s| s.navigation.selected_tab == *nav.1) },
