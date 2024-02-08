@@ -258,3 +258,21 @@ time 1707392380
 old [description:"for github page, the router is not working..." entry:"1707392246" modified:"1707392248" priority:"H" start:"1707392248" status:"pending" uuid:"1b7debcd-51f5-4b75-b876-9a85d6f89dab"]
 new [description:"for github page, the router is not working..." entry:"1707392246" modified:"1707392380" priority:"H" status:"pending" uuid:"1b7debcd-51f5-4b75-b876-9a85d6f89dab"]
 ---
+time 1707392427
+new [description:"review a little the about component with some significant data" entry:"1707392427" modified:"1707392427" priority:"M" status:"pending" uuid:"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"]
+---
+time 1707392490
+old [description:"review a little the about component with some significant data" entry:"1707392427" modified:"1707392427" priority:"M" status:"pending" uuid:"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"]
+new [description:"review a little the about component with some significant data" entry:"1707392427" modified:"1707392490" priority:"M" start:"1707392490" status:"pending" uuid:"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"]
+---
+time 1707392816
+old [description:"review a little the about component with some significant data" entry:"1707392427" modified:"1707392490" priority:"M" start:"1707392490" status:"pending" uuid:"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"]
+new [description:"review a little the about component with some significant data" end:"1707392816" entry:"1707392427" modified:"1707392816" priority:"M" status:"completed" uuid:"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"]
+---
+time 1707392844
+new [description:"project card with some hover effect" entry:"1707392844" modified:"1707392844" priority:"H" status:"pending" uuid:"468c7661-81c1-4a36-8c74-6affb058c068"]
+---
+time 1707392846
+old [description:"project card with some hover effect" entry:"1707392844" modified:"1707392844" priority:"H" status:"pending" uuid:"468c7661-81c1-4a36-8c74-6affb058c068"]
+new [description:"project card with some hover effect" entry:"1707392844" modified:"1707392846" priority:"H" start:"1707392846" status:"pending" uuid:"468c7661-81c1-4a36-8c74-6affb058c068"]
+---

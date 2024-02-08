@@ -69,3 +69,8 @@
 {"description":"for github page, the router is not working...","entry":"20240208T113726Z","modified":"20240208T113726Z","priority":"H","status":"pending","uuid":"1b7debcd-51f5-4b75-b876-9a85d6f89dab"}
 {"description":"for github page, the router is not working...","entry":"20240208T113726Z","modified":"20240208T113728Z","priority":"H","start":"20240208T113728Z","status":"pending","uuid":"1b7debcd-51f5-4b75-b876-9a85d6f89dab"}
 {"description":"for github page, the router is not working...","entry":"20240208T113726Z","modified":"20240208T113940Z","priority":"H","status":"pending","uuid":"1b7debcd-51f5-4b75-b876-9a85d6f89dab"}
+{"description":"review a little the about component with some significant data","entry":"20240208T114027Z","modified":"20240208T114027Z","priority":"M","status":"pending","uuid":"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"}
+{"description":"review a little the about component with some significant data","entry":"20240208T114027Z","modified":"20240208T114130Z","priority":"M","start":"20240208T114130Z","status":"pending","uuid":"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"}
+{"description":"review a little the about component with some significant data","end":"20240208T114656Z","entry":"20240208T114027Z","modified":"20240208T114656Z","priority":"M","status":"completed","uuid":"07bd0a7d-d8f8-4bcf-bc92-5254e0d139b3"}
+{"description":"project card with some hover effect","entry":"20240208T114724Z","modified":"20240208T114724Z","priority":"H","status":"pending","uuid":"468c7661-81c1-4a36-8c74-6affb058c068"}
+{"description":"project card with some hover effect","entry":"20240208T114724Z","modified":"20240208T114726Z","priority":"H","start":"20240208T114726Z","status":"pending","uuid":"468c7661-81c1-4a36-8c74-6affb058c068"}
