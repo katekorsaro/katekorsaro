@@ -6,8 +6,8 @@ pub fn Blog() -> impl IntoView {
     set_state.update(|x| x.navigation.selected_tab = SelectedTab::Blog);
     view! {
         <Nav/>
-        <div class="container mt-16 mx-auto text-center">
-            <h1 class="text-3xl text-rose-900 dark:text-rose-500 font-semibold">Coming soon...</h1>
+        <div class="container max-w-2xl mt-16 mx-auto">
+            <BlogList/>
         </div>
     }
 }
