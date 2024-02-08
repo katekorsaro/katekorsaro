@@ -4,7 +4,8 @@ use crate::*;
 pub fn BlogList() -> impl IntoView {
     view! {
         {
-            let blogposts = list_of_all_blogposts();
+            let mut blogposts = list_of_all_blogposts();
+            blogposts.sort_by(|a, b| b.date.cmp(&a.date));
             blogposts
                 .into_iter()
                 .map(|blogpost| {
