@@ -6,7 +6,7 @@ pub fn AboutMe() -> impl IntoView {
         <div class="container mt-8 mx-auto">
             <h1 class="text-rose-900 dark:text-rose-500 font-semibold text-xl">"About Me"</h1>
 
-            <div class="columns-1 md:columns-2">
+            <div class="columns-1 md:columns-3">
                 <ul class="list-disc ms-4">
                     <li>"Kate Korsaro here, obviously a " <u>"fake name"</u> " :)"</li>
                     <li>
