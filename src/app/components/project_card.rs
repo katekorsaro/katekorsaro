@@ -8,7 +8,7 @@ pub fn ProjectCard(project: ReadSignal<Project>) -> impl IntoView {
             class=("border-amber-500", move || project.get().status_tag == ProjectStatus::Amber)
             class=("border-lime-500", move || project.get().status_tag == ProjectStatus::Emerald)
             class=("border-cyan-500", move || project.get().status_tag == ProjectStatus::Cyan)
-            class="dark:bg-slate-700 bg-slate-300 rounded rounded-4 p-2 border-s-4 shadow-md"
+            class="dark:bg-slate-700 bg-slate-300 rounded p-2 border-s-4 shadow-md"
         >
             <!-- "card title" -->
             <h2
