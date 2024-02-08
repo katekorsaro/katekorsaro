@@ -7,17 +7,23 @@ pub fn Nav() -> impl IntoView {
         <div class="container mx-auto text-right mt-4">
             <ul>
                 <li
-                    class="inline-block underline p-2 rounded"
-                    class=("bg-slate-300", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
-                    class=("dark:bg-slate-700", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
+                    class="inline-block p-2 rounded"
+                    class=("underline", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
+                    class=("decoration-2", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
+                    class=("underline-offset-2", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
+                    class=("decoration-rose-900", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
+                    class=("dark:decoration-rose-500", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Home))
                 >
 
                     <a href="/">"Home"</a>
                 </li>
                 <li
-                    class="inline-block underline p-2 rounded"
-                    class=("bg-slate-300", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
-                    class=("dark:bg-slate-700", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
+                    class="inline-block p-2 rounded"
+                    class=("underline", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
+                    class=("decoration-2", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
+                    class=("underline-offset-2", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
+                    class=("decoration-rose-900", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
+                    class=("dark:decoration-rose-500", move || state.with(|s| s.navigation.selected_tab == SelectedTab::Blog))
                 >
 
                     <a href="/blog">"Blog"</a>
