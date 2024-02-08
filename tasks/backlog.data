@@ -62,3 +62,4 @@
 {"description":"format blog post date","end":"20240208T102542Z","entry":"20240208T101519Z","modified":"20240208T102542Z","priority":"H","status":"completed","uuid":"ce7d8623-5e5d-4fd5-88df-2270b501f8e1","tags":["new"]}
 {"description":"sort blog posts. most recent first","entry":"20240208T102603Z","modified":"20240208T102603Z","priority":"H","status":"pending","uuid":"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2","tags":["new"]}
 {"description":"sort blog posts. most recent first","entry":"20240208T102603Z","modified":"20240208T102604Z","priority":"H","start":"20240208T102604Z","status":"pending","uuid":"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2","tags":["new"]}
+{"description":"sort blog posts. most recent first","end":"20240208T103153Z","entry":"20240208T102603Z","modified":"20240208T103153Z","priority":"H","status":"completed","uuid":"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2","tags":["new"]}

@@ -232,3 +232,7 @@ time 1707387964
 old [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387963" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
 new [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387964" priority:"H" start:"1707387964" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
 ---
+time 1707388313
+old [description:"sort blog posts. most recent first" entry:"1707387963" modified:"1707387964" priority:"H" start:"1707387964" status:"pending" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
+new [description:"sort blog posts. most recent first" end:"1707388313" entry:"1707387963" modified:"1707388313" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"df9b16dd-83c5-4ac5-8ba8-fe2daea166d2"]
+---
