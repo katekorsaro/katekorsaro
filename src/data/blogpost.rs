@@ -13,6 +13,10 @@ impl BlogPost {
             text: String::from(text),
         }
     }
+    pub fn formatted_date (&self) -> String {
+        let date_str = self.date.to_string();
+        format!("{}/{}/{}", date_str[..4].to_string(), date_str[4..6].to_string(), date_str[6..8].to_string())
+    }
 }
 
 pub fn list_of_all_blogposts() -> Vec<BlogPost> {
