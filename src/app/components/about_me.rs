@@ -4,7 +4,7 @@ use crate::*;
 pub fn AboutMe() -> impl IntoView {
     view! {
         <div class="container mt-8 mx-auto">
-            <h1 class="text-rose-900 font-semibold text-xl">"About Me"</h1>
+            <h1 class="text-rose-900 dark:text-rose-500 font-semibold text-xl">"About Me"</h1>
 
             <div class="columns-1 md:columns-2">
                 <ul class="list-disc ms-4">

@@ -12,6 +12,10 @@ pub fn Nav() -> impl IntoView {
                         "bg-slate-300",
                         move || state.get().navigation.selected_tab == SelectedTab::Home,
                     )
+                    class=(
+                        "dark:bg-slate-700",
+                        move || state.get().navigation.selected_tab == SelectedTab::Home,
+                    )
                 >
 
                     <a href="/">"Home"</a>
@@ -20,6 +24,10 @@ pub fn Nav() -> impl IntoView {
                     class="inline-block underline p-2 rounded rounded-4"
                     class=(
                         "bg-slate-300",
+                        move || state.get().navigation.selected_tab == SelectedTab::Blog,
+                    )
+                    class=(
+                        "dark:bg-slate-700",
                         move || state.get().navigation.selected_tab == SelectedTab::Blog,
                     )
                 >
