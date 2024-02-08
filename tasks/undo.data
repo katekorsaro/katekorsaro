@@ -173,3 +173,10 @@ time 1707379955
 old [description:"dark theme!" entry:"1707376542" modified:"1707376544" priority:"H" start:"1707376544" status:"pending" tags:"new" tags_new:"x" uuid:"6dc97da0-c9a9-40e4-bc68-1fc41ca914e0"]
 new [description:"dark theme!" end:"1707379955" entry:"1707376542" modified:"1707379955" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"6dc97da0-c9a9-40e4-bc68-1fc41ca914e0"]
 ---
+time 1707380031
+new [description:"nav style in dark mode: pink underline" entry:"1707380031" modified:"1707380031" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"31ab0d45-d617-442e-bf7b-117c5e6f0b49"]
+---
+time 1707380033
+old [description:"nav style in dark mode: pink underline" entry:"1707380031" modified:"1707380031" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"31ab0d45-d617-442e-bf7b-117c5e6f0b49"]
+new [description:"nav style in dark mode: pink underline" entry:"1707380031" modified:"1707380033" priority:"H" start:"1707380033" status:"pending" tags:"new" tags_new:"x" uuid:"31ab0d45-d617-442e-bf7b-117c5e6f0b49"]
+---
