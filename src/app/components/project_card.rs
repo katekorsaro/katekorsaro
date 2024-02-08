@@ -20,7 +20,9 @@ pub fn ProjectCard(project: ReadSignal<Project>) -> impl IntoView {
                 }>{move || project.get().title.clone()}</a>
             </h2>
             <!-- "status" -->
-            <p class="text-slate-600 dark:text-slate-400 text-xs">"Status: " {move || project.get().status.clone()}</p>
+            <p class="text-slate-600 dark:text-slate-400 text-xs">
+                "Status: " {move || project.get().status.clone()}
+            </p>
             <!-- "description" -->
             <p class="mt-2">{move || project.get().description.clone()}</p>
             <!-- "tags" -->
