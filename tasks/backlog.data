@@ -48,3 +48,6 @@
 {"description":"dark theme!","end":"20240208T081235Z","entry":"20240208T071542Z","modified":"20240208T081235Z","priority":"H","status":"completed","uuid":"6dc97da0-c9a9-40e4-bc68-1fc41ca914e0","tags":["new"]}
 {"description":"nav style in dark mode: pink underline","entry":"20240208T081351Z","modified":"20240208T081351Z","priority":"H","status":"pending","uuid":"31ab0d45-d617-442e-bf7b-117c5e6f0b49","tags":["new"]}
 {"description":"nav style in dark mode: pink underline","entry":"20240208T081351Z","modified":"20240208T081353Z","priority":"H","start":"20240208T081353Z","status":"pending","uuid":"31ab0d45-d617-442e-bf7b-117c5e6f0b49","tags":["new"]}
+{"description":"refactor navbar with an iteration","entry":"20240208T082321Z","modified":"20240208T082321Z","priority":"M","status":"pending","uuid":"f8501c11-ccc9-4fd8-adfb-275cd20240bc"}
+{"description":"nav style in dark mode: pink underline","end":"20240208T082836Z","entry":"20240208T081351Z","modified":"20240208T082836Z","priority":"H","status":"completed","uuid":"31ab0d45-d617-442e-bf7b-117c5e6f0b49","tags":["new"]}
+{"description":"refactor navbar with an iteration","entry":"20240208T082321Z","modified":"20240208T082847Z","priority":"M","start":"20240208T082847Z","status":"pending","uuid":"f8501c11-ccc9-4fd8-adfb-275cd20240bc"}
