@@ -1,0 +1,4 @@
+apt install -y firefox-esr
+cargo install cargo-quickinstall
+cargo quickinstall trunk
+rustup target add wasm32-unknown-unknown
