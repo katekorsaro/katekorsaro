@@ -1,4 +1,11 @@
+echo '### Installing Firefox'
 apt install -y firefox-esr
+
+echo '### Installing Quickinstall'
 cargo install cargo-quickinstall
+
+echo '### Installing trunk'
 cargo quickinstall trunk
+
+echo '### Installing wasm32'
 rustup target add wasm32-unknown-unknown
